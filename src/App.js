@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  BrowserRouter,
 } from "react-router-dom";
 import Rewards from "./pages/Rewards";
 import Gifts from "./pages/Gifts";

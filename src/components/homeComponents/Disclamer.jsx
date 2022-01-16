@@ -5,7 +5,7 @@ function Disclamer() {
     <main className="disc-container">
       <section className="section1">
         <p>
-          *At participating stores. Some restrictions apply. See
+          *At participating stores. Some restrictions apply. See 
           <a
             target="_blank"
             rel="noreferrer"
@@ -13,7 +13,7 @@ function Disclamer() {
           >
             http://starbucks.ca/rewards
           </a>
-          for details
+           for details
         </p>
       </section>
       <section className="section2">
