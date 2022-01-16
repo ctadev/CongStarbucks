@@ -1,0 +1,234 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 2rem;
+  .footer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    border-bottom: rgba(0, 0, 0, 0.26) 2px solid;
+    gap: 1rem;
+    h3 {
+      font-weight: lighter;
+    }
+    li {
+      font-weight: lighter;
+      color: rgba(0, 0, 0, 0.671);
+    }
+    .about {
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        .fas.fa-chevron-down.rotate {
+          transform: rotate(180deg);
+          transition: 0.2s ease;
+        }
+        .fas.fa-chevron-down {
+          transition: 0.2s ease;
+        }
+      }
+      .aboutmenu {
+        height: 100%;
+        transition: 3s ease;
+        li {
+          list-style: none;
+          padding: 1rem 1rem;
+        }
+      }
+      .aboutmenu.hide {
+        max-height: 0;
+        overflow: hidden;
+      }
+    }
+
+    .career {
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        .fas.fa-chevron-down.rotate {
+          transform: rotate(180deg);
+          transition: 0.2s ease;
+        }
+        .fas.fa-chevron-down {
+          transition: 0.2s ease;
+        }
+      }
+      .careermenu {
+        li {
+          list-style: none;
+          padding: 1rem 1rem;
+        }
+      }
+      .careermenu.hide {
+        max-height: 0;
+        overflow: hidden;
+        transition: 3s ease;
+      }
+    }
+
+    .social {
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        .fas.fa-chevron-down.rotate {
+          transform: rotate(180deg);
+          transition: 0.2s ease;
+        }
+        .fas.fa-chevron-down {
+          transition: 0.2s ease;
+        }
+      }
+      .socialmenu {
+        height: 100%;
+        li {
+          list-style: none;
+          padding: 1rem 1rem;
+        }
+      }
+      .socialmenu.hide {
+        max-height: 0;
+        overflow: hidden;
+      }
+    }
+
+    .partners {
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        .fas.fa-chevron-down.rotate {
+          transform: rotate(180deg);
+          transition: 0.2s ease;
+        }
+        .fas.fa-chevron-down {
+          transition: 0.2s ease;
+        }
+      }
+      .partnersmenu {
+        height: 100%;
+        transition: 3s ease;
+        li {
+          list-style: none;
+          padding: 1rem 1rem;
+        }
+      }
+      .partnersmenu.hide {
+        max-height: 0;
+        overflow: hidden;
+      }
+    }
+
+    .order {
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        .fas.fa-chevron-down.rotate {
+          transform: rotate(180deg);
+          transition: 0.2s ease;
+        }
+        .fas.fa-chevron-down {
+          transition: 0.2s ease;
+        }
+      }
+      .ordermenu {
+        height: 100%;
+        transition: 3s ease;
+        li {
+          list-style: none;
+          padding: 1rem 1rem;
+        }
+      }
+      .ordermenu.hide {
+        max-height: 0;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .footer-container {
+    .footer {
+      flex-direction: row;
+      gap: 2rem;
+      i {
+        display: none;
+      }
+      .about {
+        .aboutmenu {
+          li {
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+      .career {
+        .careermenu {
+          li {
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+      .social {
+        width: 20%;
+        .socialmenu {
+          li {
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+      .partners {
+        .partnersmenu {
+          li {
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+      .order {
+        .ordermenu {
+          li {
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .footer-container {
+    .footer {
+      h3 {
+        font-size: 1.5rem;
+      }
+      li {
+        font-size: 1.2rem;
+      }
+      .social {
+        width: 15%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1194px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer {
+      width: 1194px;
+    }
+  }
+}

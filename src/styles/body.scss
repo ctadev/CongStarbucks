@@ -1,0 +1,77 @@
+.body-container {
+  width: 100vw;
+  margin-top: 2rem;
+  .hero1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 40vh;
+    background: #006241;
+    .info1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      color: white;
+      h2 {
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        width: 90%;
+      }
+      p {
+        font-family: "Nunito", sans-serif;
+        margin-top: 2rem;
+        text-align: center;
+        width: 90%;
+      }
+      button {
+        height: 2rem;
+        margin-top: 2rem;
+        width: 6rem;
+        border-radius: 25px;
+        border: none;
+        outline: rgb(255, 255, 255) 1px solid;
+        background: transparent;
+        color: white;
+        margin-bottom: 2rem;
+      }
+    }
+    .pic1 {
+      width: 100%;
+      background: chocolate;
+      img {
+        height: 100%;
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .body-container {
+    .hero1 {
+      flex-direction: row;
+      min-height: 20vh;
+    }
+  }
+}
+
+@media (min-width: 1194px) {
+  .body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero1 {
+      flex-direction: row;
+      max-height: 232px;
+      max-width: 1194px;
+    }
+  }
+}

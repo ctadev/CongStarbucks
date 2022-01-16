@@ -1,0 +1,127 @@
+.body4-container {
+  width: 100vw;
+  margin-top: 2rem;
+  .hero4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    .card {
+      min-height: 30vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 100%;
+        height: 100%;
+        background: rgb(219, 243, 237);
+        object-fit: contain;
+      }
+      .info {
+        height: 100%;
+        width: 100%;
+        background: rgb(219, 243, 237);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Nunito", sans-serif;
+        color: black;
+        h2 {
+          font-size: 1.3rem;
+          margin-bottom: 2rem;
+          margin-top: 1rem;
+        }
+        p {
+          text-align: center;
+          width: 90%;
+          font-weight: bolder;
+          margin-bottom: 2rem;
+          font-size: 1.1rem;
+        }
+        button {
+          height: 2rem;
+          width: 6rem;
+          border-radius: 25px;
+          border: none;
+          outline: rgb(0, 0, 0) 1px solid;
+          background: transparent;
+          color: rgb(0, 0, 0);
+          margin-bottom: 2rem;
+        }
+        .download {
+          width: 10rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .body4-container {
+    .hero4 {
+      flex-direction: row;
+      gap: 2rem;
+      .card {
+        img {
+          height: 55%;
+        }
+        .info {
+          height: 270px;
+          h2 {
+            font-size: 1.5rem;
+            width: 90%;
+            text-align: center;
+          }
+          p {
+            font-size: 1.2rem;
+            font-weight: lighter;
+          }
+          button {
+            font-size: 1rem;
+            font-weight: bold;
+            width: 7rem;
+          }
+          .download {
+            width: 12rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .body4-container {
+    .hero4 {
+      display: flex;
+      gap: 2rem;
+      .card {
+        img {
+          height: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1194px) {
+  .body4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero4 {
+      display: flex;
+      gap: 2rem;
+      width: 1194px;
+      .card {
+        width: 1194px;
+        img {
+          height: 80%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.menu-nav-container{
+    width: 100VW;
+    height: 3rem;
+    background: #ecebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: 7rem;
+    .inner-container{
+        display: flex;
+        width: 90%;
+        p{
+            margin: 0 2rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-nav-container{
+        display: none;
+    }
+}

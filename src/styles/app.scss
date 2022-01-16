@@ -1,0 +1,26 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import "./nav.scss";
+@import "./body.scss";
+@import "./body2.scss";
+@import "./body3.scss";
+@import "./body4.scss";
+@import "./disclaimer.scss";
+@import "./footer.scss";
+@import "./socials.scss";
+@import "./menu.scss";
+@import "./menunav.scss";
+@import "./navproducts.scss";
