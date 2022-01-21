@@ -14,12 +14,7 @@ body {
 }
 
 .app{
-  .home-container{
-    overflow-x: hidden;
-  }
-  .rewards-container{
-    
-  }
+  overflow-x: hidden;
 }
 
 @import "./nav.scss";
@@ -40,3 +35,5 @@ body {
 @import './extras.scss';
 @import './cashorcard.scss';
 @import './navreward.scss';
+@import './starcode.scss';
+@import './restriction.scss';

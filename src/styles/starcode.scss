@@ -1,0 +1,90 @@
+.starcode-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .inner-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 4rem;
+        width: 90%;
+        padding-bottom: 8rem;
+        input{
+            height: 3rem;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.432);
+            outline: none;
+            padding: 10px;
+            font-size: 1rem;
+        }
+        .submit-btn{
+            display: flex;
+            justify-content: flex-end;
+            button{
+                width: 5rem;
+                border-radius: 25px;
+                height: 2rem;
+                background: none;
+                border: 1px solid black;
+                outline: none;
+                &:hover{
+                    cursor: pointer;
+                    background: whitesmoke;
+                }
+            }
+        }
+        .receipt{
+            margin-top: 1rem;
+            p{
+                span{
+                    text-decoration: underline;
+                    color: green;
+                }
+            }
+        }
+        .question{
+            margin-top: 4rem;
+            p{
+                margin: 1rem 0;
+                span{
+                    text-decoration: underline;
+                    color: green;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .starcode-container{
+        justify-content: flex-start;
+        .inner-container{
+            width: 50%;
+            margin-left: 10rem;
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+            .submit-btn{
+                button{
+                    font-size: 1.1rem;
+                    width: 6rem;
+                    height: 2.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1194px) {
+    .starcode-container{
+        justify-content: center;
+        .inner-container{
+            margin-left: 0;
+        }
+    }
+}

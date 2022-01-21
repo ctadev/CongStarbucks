@@ -1,0 +1,88 @@
+.restriction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  .inner-container {
+    width: 90%;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    .section1 {
+      p {
+        margin: 1rem 0;
+      }
+      h2 {
+        font-size: 0.9rem;
+        font-weight: bolder;
+        color: rgba(0, 0, 0, 0.912);
+        margin-top: 2.5rem;
+      }
+    }
+    .section2 {
+      p {
+        margin: 1rem 0;
+      }
+      h2 {
+        font-size: 0.9rem;
+        font-weight: bolder;
+        color: rgba(0, 0, 0, 0.912);
+        margin-top: 2.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .restriction-container {
+    .inner-container {
+      .section1 {
+        display: flex;
+        gap: 3rem;
+        p {
+          font-size: 1.1rem;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+        .item1 {
+          width: 50%;
+        }
+        .item2 {
+          width: 50%;
+          margin-top: 2rem;
+          p {
+            span {
+              text-decoration: underline;
+              color: green;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+      .section2 {
+        display: flex;
+        gap: 3rem;
+        p {
+          font-size: 1.1rem;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+        .item1 {
+          width: 50%;
+        }
+        .item2 {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1194px) {
+  .restriction-container {
+    .inner-container {
+      width: 1194px;
+    }
+  }
+}
