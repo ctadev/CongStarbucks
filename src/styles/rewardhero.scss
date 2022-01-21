@@ -1,0 +1,73 @@
+.rewardhero-container {
+  background: #d4e9e2;
+  padding-top: 3rem;
+  section {
+      min-height: 70VH;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        font-weight: lighter;
+        .tap{
+            letter-spacing: 0.2rem;
+        }
+      }
+      p {
+        margin: 2rem 0;
+        font-size: 1.2rem;
+        span{
+            text-decoration: underline;
+        }
+      }
+      button {
+        height: 2rem;
+        width: 6rem;
+        border-radius: 25px;
+        border: none;
+        background: rgb(2, 97, 2);
+        color: white;
+        font-weight: bolder;
+        padding: 5px;
+      }
+      .mobile-btn{
+        width: 8rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+    .rewardhero-container{
+      padding-top: 10rem;
+      padding-bottom: 4rem;
+        section{
+            display: flex;
+            margin-left: 3rem;
+            div{
+                align-items: flex-start;
+                justify-content: center;
+                div{
+                  font-size: 1.8rem;
+                }
+                p{
+                  font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1194px) {
+    .rewardhero-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        section{
+            width: 1194px;
+        }
+    }
+}

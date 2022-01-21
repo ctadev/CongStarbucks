@@ -1,14 +1,14 @@
 import React from "react";
-import NavProducts from "../components/productsComponents/NavProducts";
 import Menu from "../components/productsComponents/Menu";
 import Footer from "../components/globalComponents/Footer";
 import Socials from "../components/globalComponents/Socials";
 import MenuNav from "../components/productsComponents/MenuNav";
+import NavProduct from "../components/productsComponents/NavProducts";
 
 function Products() {
   return (
     <main className="products-container">
-      <NavProducts />
+      <NavProduct />
       <MenuNav />
       <Menu />
       <Footer />
