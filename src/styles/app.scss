@@ -13,8 +13,11 @@ body {
   align-items: center;
 }
 
-.app{
+.app {
   overflow-x: hidden;
+  .rewards-container {
+    overflow-x: hidden;
+  }
 }
 
 @import "./nav.scss";
@@ -28,12 +31,12 @@ body {
 @import "./menu.scss";
 @import "./menunav.scss";
 @import "./navproducts.scss";
-@import './title.scss';
-@import './rewardhero.scss';
-@import './gettingstarted.scss';
-@import './rating.scss';
-@import './extras.scss';
-@import './cashorcard.scss';
-@import './navreward.scss';
-@import './starcode.scss';
-@import './restriction.scss';
+@import "./title.scss";
+@import "./rewardhero.scss";
+@import "./gettingstarted.scss";
+@import "./rating.scss";
+@import "./extras.scss";
+@import "./cashorcard.scss";
+@import "./navreward.scss";
+@import "./starcode.scss";
+@import "./restriction.scss";

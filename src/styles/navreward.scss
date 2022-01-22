@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   border-bottom: rgba(0, 0, 0, 0.1) 2px solid;
+  width: 100vw;
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -153,8 +154,7 @@
             height: 2rem;
             width: 4.5rem;
             border-radius: 25px;
-            border: none;
-            outline: black 1px solid;
+            border: black 1px solid;
             background: transparent;
             margin-right: 1rem;
             &:hover {
@@ -165,9 +165,8 @@
             height: 2rem;
             width: 5.5rem;
             border-radius: 25px;
-            border: none;
             color: white;
-            outline: black 1px solid;
+            border: black 1px solid;
             background: black;
             &:hover {
               background: rgba(100, 100, 100, 0.9);
@@ -227,7 +226,7 @@
     height: 7rem;
     background: white;
     .nav-container {
-      width: 100VW;
+      width: 100vw;
       .nav-left {
         margin-left: 2rem;
         .nav-logo {
@@ -302,9 +301,9 @@
 
 @media (min-width: 1194px) {
   .navreward {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .nav-container {
       width: 1242px;
       .nav-left {

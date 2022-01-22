@@ -103,14 +103,14 @@ nav {
         }
 
         .gift-div {
-            .gift-link {
-              text-decoration: none;
-              color: black;
-              &:hover {
-                color: green;
-              }
+          .gift-link {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              color: green;
             }
           }
+        }
         .divider {
           position: relative;
           display: block;
@@ -154,8 +154,7 @@ nav {
             height: 2rem;
             width: 4.5rem;
             border-radius: 25px;
-            border: none;
-            outline: black 1px solid;
+            border: black 1px solid;
             background: transparent;
             margin-right: 1rem;
             &:hover {
@@ -166,9 +165,8 @@ nav {
             height: 2rem;
             width: 5.5rem;
             border-radius: 25px;
-            border: none;
+            border: black 1px solid;
             color: white;
-            outline: black 1px solid;
             background: black;
             &:hover {
               background: rgba(100, 100, 100, 0.9);

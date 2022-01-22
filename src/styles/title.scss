@@ -2,6 +2,7 @@
   background: #1e3932;
   position: sticky;
   top: 0;
+  width: 100VW;
   section {
     height: 3rem;
     display: flex;
@@ -45,6 +46,7 @@
 @media (min-width: 768px) {
   .title-container {
     top: 110px;
+    position: fixed;
     section {
       h2 {
         margin-left: 7rem;

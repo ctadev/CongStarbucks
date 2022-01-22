@@ -155,8 +155,7 @@
             height: 2rem;
             width: 4.5rem;
             border-radius: 25px;
-            border: none;
-            outline: black 1px solid;
+            border: black 1px solid;
             background: transparent;
             margin-right: 1rem;
             &:hover {
@@ -167,9 +166,8 @@
             height: 2rem;
             width: 5.5rem;
             border-radius: 25px;
-            border: none;
             color: white;
-            outline: black 1px solid;
+            border: black 1px solid;
             background: black;
             &:hover {
               background: rgba(100, 100, 100, 0.9);
