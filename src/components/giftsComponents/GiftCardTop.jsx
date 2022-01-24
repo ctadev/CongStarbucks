@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function GiftCards({ title, opacity, data }) {
+function GiftCardTop({ title, opacity, data }) {
   const [position, setPosition] = useState(0);
   const [opa1, setOpa1] = useState(0);
   const [opa2, setOpa2] = useState(1);
@@ -60,7 +60,7 @@ function GiftCards({ title, opacity, data }) {
   };
 
   return (
-    <main className="giftcards-container">
+    <main className="gifttop-container">
       <section className="inner-container">
         <div className="title">
           <h1>{title}</h1>
@@ -97,4 +97,4 @@ function GiftCards({ title, opacity, data }) {
   );
 }
 
-export default GiftCards;
+export default GiftCardTop;

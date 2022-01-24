@@ -1,0 +1,63 @@
+.got-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d4e9e2;
+  .inner-container {
+    width: 90%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    .container {
+      .title {
+        h1 {
+          font-size: 1.7rem;
+        }
+        p {
+          font-size: 1.1rem;
+          color: grey;
+        }
+      }
+      .btn {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        .add {
+          margin-right: 1rem;
+          background: none;
+          font-weight: bolder;
+        }
+        .check {
+          background: black;
+          color: white;
+          font-weight: bolder;
+        }
+        button {
+          height: 2rem;
+          width: 8rem;
+          border-radius: 25px;
+          border: black 1px solid;
+        }
+      }
+    }
+    .terms {
+      display: flex;
+      justify-content: flex-end;
+      color: rgb(11, 109, 11);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .got-container {
+    .inner-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+      }
+    }
+  }
+}
